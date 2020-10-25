@@ -1,3 +1,8 @@
+/* Table of contents */
+/* 1. Fonts  */
+/* 2. general styles */
+/* 3. Container */
+
 /*--- FONTS ---- */
 
 @font-face {
@@ -70,10 +75,26 @@
 
 
 /* General STYLES */
-
-body {
+.page {
+  box-sizing: border-box;
+  height: 100%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.page__body {
   font-family: "Rubik", "AriaL", sans-serif;
   font-size: 15px;
   line-height: 18px;
   color: #434343;
 }
+
+/* CONTAINER */
+.container {
+ max-width: 1240px;
+ padding: 0 20px;
+ margin: 0 auto;
+}
+/* --CONTAINER */
