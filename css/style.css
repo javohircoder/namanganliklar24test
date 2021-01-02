@@ -190,6 +190,14 @@
   background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
   text-decoration: none;
 }
-.telegram-sub__text {
+.telegram-sub:hover {
+  background-color: #37AEE2;
+  background: linear-gradient(90deg, #37AEE2 15.07%, #1E96C8 85.96%);
+}
+.telegram_sub__img {
+  margin-right: 7px;
+}
+.telegram_sub__text {
   font-weight: 600;
 }
+
