@@ -119,7 +119,7 @@
   background-color: #F6F6F9;
 }
 .site-header__top {
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
   margin-bottom: 40px;
   align-items: center;
